@@ -159,7 +159,7 @@
   a { color: inherit; text-decoration: none; }
 }
 
-:root { --navy: #071b30; --ink: #102139; --yellow: #F2B438; }
+:root { --navy: #2F2F2F; --ink: #102139; --yellow: #F2B438; }
 .site-shell { min-height: 100vh; overflow: hidden; background: #f7f4ef; }
 .site-header { height: 58px; padding: 0 30px; display: flex; align-items: center; gap: 42px; color: white; background: var(--navy); box-shadow: 0 1px 4px #0005; position: relative; z-index: 2; }
 .brand-logo { width: 174px; height: 48px; object-fit: contain; object-position: left center; mix-blend-mode: screen; filter: saturate(1.15) contrast(1.1); }

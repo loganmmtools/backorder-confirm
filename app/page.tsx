@@ -1,4 +1,4 @@
-import { CheckSquare, ChevronDown, Mail, Phone, Search, ShoppingCart, UserRound } from 'lucide-react'
+import { CheckSquare, Mail, Phone } from 'lucide-react'
 
 const logoUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MMToolParts%20Logo_HighRes-rKqI2i88y8gcA4tRuj4xXx8wOGJj7x.jpeg'
 
@@ -12,16 +12,8 @@ export default function Page() {
       <header className="site-header">
         <Logo />
         <nav aria-label="Main navigation" className="desktop-nav">
-          <a href="#">Parts by Brand <ChevronDown size={13} /></a>
-          <a href="#">Parts by Tool <ChevronDown size={13} /></a>
-          <a href="#">Repair Services</a>
-          <a href="#">Support</a>
+          <a href="/contact-us">Support</a>
         </nav>
-        <div className="header-actions" aria-label="Account actions">
-          <Search size={23} strokeWidth={1.8} />
-          <UserRound size={23} strokeWidth={1.8} />
-          <span className="cart-wrap"><ShoppingCart size={24} strokeWidth={1.8} /><b>0</b></span>
-        </div>
       </header>
 
       <section className="hero">
