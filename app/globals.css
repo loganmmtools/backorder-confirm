@@ -162,7 +162,7 @@
 :root { --navy: #2F2F2F; --ink: #102139; --yellow: #F2B438; }
 .site-shell { min-height: 100vh; overflow: hidden; background: #f7f4ef; }
 .site-header { height: 58px; padding: 0 30px; display: flex; align-items: center; gap: 42px; color: white; background: var(--navy); box-shadow: 0 1px 4px #0005; position: relative; z-index: 2; }
-.brand-logo { width: 174px; height: 48px; object-fit: contain; object-position: left center; }
+.brand-logo { width: 174px; height: 48px; object-fit: contain; object-position: left center; border-radius: 8px; }
 .desktop-nav { display: flex; align-items: center; gap: 28px; margin-left: auto; font-size: 12px; font-weight: 700; white-space: nowrap; }
 .desktop-nav a { display: flex; align-items: center; gap: 4px; }
 .header-actions { display: flex; align-items: center; gap: 20px; margin-left: 0; }
