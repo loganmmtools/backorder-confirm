@@ -1,6 +1,6 @@
 import { CheckSquare, Mail, Phone } from 'lucide-react'
 
-const logoUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MMToolParts%20Logo_HighRes-rKqI2i88y8gcA4tRuj4xXx8wOGJj7x.jpeg'
+const logoUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MM%20Logo_Yellow-0OUGL5fpZCZm3iTJF1Wk5JImqj3vIM.jpg'
 
 function Logo({ compact = false }: { compact?: boolean }) {
   return <img src={logoUrl} alt="mmToolParts" className={compact ? 'brand-logo brand-logo--footer' : 'brand-logo'} />
