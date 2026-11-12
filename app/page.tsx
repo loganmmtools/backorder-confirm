@@ -39,7 +39,7 @@ export default function Page() {
             <span>DEWALT N129932 Brush Set&nbsp; — &nbsp;Qty: 1</span>
           </div>
 
-          <p className="body-copy">By confirming, you&apos;re asking us to keep your order active until<br className="desktop-break" /> your backordered items become available. We&apos;ll notify you when<br className="desktop-break" /> your order is being prepared for shipment.</p>
+          <p className="body-copy">By confirming, you&apos;re asking us to keep your order active until<br className="desktop-break" /> your backordered items become available. We&apos;ll notify you when your order is being prepared for shipment.</p>
           <button type="button" className="confirm-button">Confirm I&apos;ll Wait</button>
           <a className="return-link" href="#">← Return to M&amp;M Tool Parts</a>
           <p className="support-note">Need a different arrangement? Contact customer support at <strong>801-485-8200.</strong></p>
