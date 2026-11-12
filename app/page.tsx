@@ -33,7 +33,7 @@ export default function Page() {
 
           <p className="body-copy">By confirming, you&apos;re asking us to keep your order active until<br className="desktop-break" /> your backordered items become available. We&apos;ll notify you when your order is being prepared for shipment.</p>
           <button type="button" className="confirm-button">Confirm I&apos;ll Wait</button>
-          <a className="return-link" href="#">← Return to M&amp;M Tool Parts</a>
+          <a className="return-link" href="#">Visit M&amp;M Tool Parts <span aria-hidden="true">→</span></a>
           <p className="support-note">Need a different arrangement? Contact customer support at <strong>801-485-8200.</strong></p>
         </article>
       </section>
