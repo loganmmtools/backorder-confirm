@@ -25,10 +25,11 @@ export default function Page() {
 
           <div className="order-box">
             <h2>Order #SO123456</h2>
-            <div className="order-rule" />
-            <strong>Backordered Item(s)</strong>
-            <span>DEWALT N042665 Armature Assembly&nbsp; — &nbsp;Qty: 1</span>
-            <span>DEWALT N129932 Brush Set&nbsp; — &nbsp;Qty: 1</span>
+            <div className="order-table">
+              <div className="order-heading"><strong>Backordered Item(s)</strong><strong>Qty</strong></div>
+              <div className="order-row"><span>DEWALT N042665 Armature Assembly</span><span>1</span></div>
+              <div className="order-row"><span>DEWALT N129932 Brush Set</span><span>1</span></div>
+            </div>
           </div>
 
           <p className="body-copy">By confirming, you&apos;re asking us to keep your order active until<br className="desktop-break" /> your backordered items become available. We&apos;ll notify you when your order is being prepared for shipment.</p>
@@ -39,9 +40,8 @@ export default function Page() {
       </section>
 
       <footer className="site-footer">
-        <Logo compact />
-        <div className="footer-column"><strong>Questions?</strong><span><Phone size={16} /> 801-485-8200</span><span><Mail size={16} /> support@mmtoolparts.com</span></div>
-        <div className="footer-column links"><strong>Helpful Links</strong><a href="#">Order Status</a><a href="#">Shipping Information</a><a href="#">Returns &amp; Exchanges</a><a href="#">Contact Us</a></div>
+        <div className="footer-column contact-column"><span><Phone size={16} /> 801-485-8200</span><span><Mail size={16} /> support@mmtoolparts.com</span></div>
+        <div className="footer-column links"><a href="#">Order Status</a><span className="footer-dot" aria-hidden="true" /> <a href="#">Shipping Information</a><a href="#">Returns &amp; Exchanges</a><span className="footer-dot" aria-hidden="true" /> <a href="#">Contact Us</a></div>
       </footer>
     </main>
   )
