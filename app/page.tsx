@@ -1,6 +1,6 @@
 import { CheckSquare, Mail, Phone } from 'lucide-react'
 
-const logoUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MM%20Logo_Yellow-0OUGL5fpZCZm3iTJF1Wk5JImqj3vIM.jpg'
+const logoUrl = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mmToolParts%20Logo_White_Transparent-9HybhYTZIFbP9cC6FuqgKn8tig6cBD.png'
 
 function Logo({ compact = false }: { compact?: boolean }) {
   return <img src={logoUrl} alt="mmToolParts" className={compact ? 'brand-logo brand-logo--footer' : 'brand-logo'} />
@@ -11,9 +11,6 @@ export default function Page() {
     <main className="site-shell">
       <header className="site-header">
         <Logo />
-        <nav aria-label="Main navigation" className="desktop-nav">
-          <a href="/contact-us">Support</a>
-        </nav>
       </header>
 
       <section className="hero">
